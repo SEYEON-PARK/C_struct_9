@@ -10,7 +10,7 @@ struct Lucky
 
 int main(void)
 {
-	srand((unsigned)time(NULL));
+	srand((unsigned)time(NULL)); //랜덤으로 만들기 위해서
 	
 	struct Lucky one;
 
