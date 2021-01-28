@@ -12,12 +12,12 @@ int main(void)
 {
 	srand((unsigned)time(NULL)); //숫자를 랜덤으로 만들기 위해서
 	
-	struct Lucky one;
+	struct Lucky one; 
 
 	one.a = rand() % 10;
 	one.b = rand() % 10;
 
-	printf("%d %lf", one.a, one.b);
+	printf("%d %lf", one.a, one.b); //출력하기
 
 	return 0;
 }
